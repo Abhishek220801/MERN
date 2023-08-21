@@ -1,0 +1,16 @@
+function sum(index1, index2) {
+  return index1 + index2
+}
+function minus(index1, index2) {
+  return index1 - index2
+}
+function multiply(index1, index2) {
+  return index1 * index2
+}
+function divide(index1, index2) {
+  return index1 / index2
+}
+
+function doArithmetic(index1, index2, whatToDo) {
+  return whatToDo(index1, index2)
+}
